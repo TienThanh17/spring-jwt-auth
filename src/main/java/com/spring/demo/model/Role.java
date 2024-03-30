@@ -16,5 +16,4 @@ public class Role {
     @NaturalId
     @Column(name = "role")
     private RoleName role;
-
 }
