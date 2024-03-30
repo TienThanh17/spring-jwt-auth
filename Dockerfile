@@ -1,4 +1,4 @@
- FROM openjdk:21-jdk
+ FROM openjdk:21-jdk as build
 # RUN gradle clean build
 # WORKDIR build/
  COPY ./build/libs/demo-0.0.1-SNAPSHOT.jar app.jar
